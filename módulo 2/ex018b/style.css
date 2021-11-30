@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom,#EA7446, #E63B02, #6B3824);
+    background-attachment: fixed;
+}
+
+main{
+    background-color: white;
+    border-radius: 30px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1, h2{
+    font-family: 'Creepster', cursive;
+    color: #B33300;
+}
+
+p{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: justify;
+}
+
+ul{
+    font-family: 'Cormorant Garamond', serif;
+}

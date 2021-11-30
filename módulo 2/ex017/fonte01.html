@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in (polegada), px, pt (ponto), pc (paica)
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            (medida relativa a altura de M), (altura de x), (vw - largura da tela), (vh - altura da tela)
+            16px(tamanho normal) geralmente =1em
+            Recomendação oficial pela W3C é de utilizar px ou em.
+            */
+            font-size: 1em;
+            font-weight: bolder;
+            /* 
+            Existem alguns valores aceitos para weight, que são: lighter, normal, bold, bolder.
+            Também podemos utilizar valores numéricos de 100 a 900 (a cada 100), porém, nem todas as fontes possuem essas variações.
+            */
+
+            /* 
+            weight- peso
+            width - largura
+            height - altura
+            */
+            font-style: italic;
+            text-decoration: underline;
+
+            /* Temos como facilitar as nossas configurações utilizando o chamado: shorthand font: → font-style → font-weight → font-size → font-family
+            Assim, em vez de escrevermos várias linhas, como anteriormente, podemos facilitar (exemplo abaixo)
+            */
+            font: italic bolder 1em 'Arial', 'Helvetica', sans-serif;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, eum. Voluptatibus ducimus culpa accusantium sunt tenetur eligendi maiores explicabo voluptatum. Optio inventore totam sunt velit dolorem, voluptate facilis architecto asperiores.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque sapiente culpa similique asperiores, pariatur corporis nemo ipsum, libero accusantium tempore ipsam nisi aspernatur debitis accusamus. Voluptatem non illo perspiciatis ducimus?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores vero maxime, adipisci non aperiam magnam, distinctio blanditiis a dignissimos facilis modi dicta voluptatem reiciendis ad accusamus quia ipsum ea soluta?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corporis voluptatem quos quidem praesentium omnis possimus, excepturi magnam sed! Dolorum, commodi in. Quos, eaque qui esse quisquam id in consectetur?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iure at odit quisquam dolore doloremque quam adipisci sequi libero sunt, rerum optio accusantium ab, iusto aliquam neque nisi eaque? Ea.</p>
+</body>
+</html>
