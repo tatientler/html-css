@@ -1,4 +1,4 @@
-# html-css
+# HTML5 e CSS3
 <strong>Exercícios básicos de HTML5 e CSS3</strong> 💻
 
 <strong>Módulo 01 - Primeiros passos HTML + CSS</strong>
